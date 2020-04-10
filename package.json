@@ -1,0 +1,26 @@
+{
+  "name": "wbdv-sp20-jiawenli-server-node",
+  "version": "1.0.0",
+  "description": "A simple node server application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jiawen-Li/wbdv-sp20-jiawenli-server-node.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Jiawen Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jiawen-Li/wbdv-sp20-jiawenli-server-node/issues"
+  },
+  "homepage": "https://github.com/Jiawen-Li/wbdv-sp20-jiawenli-server-node#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
