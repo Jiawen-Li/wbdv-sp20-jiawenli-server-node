@@ -11,8 +11,7 @@
   {"_id": "456", "title": "JSON Multiple Choice", "quizId": "345", "question":
   "What does JSON stand for?", "correct": "JavaScript Object Notation",
     "type": "MULTIPLE_CHOICE", "choices": ["JavaScript Object Notation",
-    "JavaScript Object Normalization", "Java Object Normalization", "Java Object
-    Notation"]},
+    "JavaScript Object Normalization", "Java Object Normalization", "Java Object Notation"]},
     {"_id": "567", "title": "CSS True False", "quizId": "345", "question":
     "CSS stands for Cascading Style Sheet", "correct": "true", "type": "TRUE_FALSE"},
     {"_id": "678", "title": "CSS Multiple Choice", "quizId": "123", "question":
