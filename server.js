@@ -13,4 +13,4 @@ app.use(function (req, res, next) {
 require('./controllers/quiz.controller.server')(app)
 require('./controllers/question.controller.server')(app)
 
-app.listen(3000)
+app.listen(process.env.PORT || 3000)
