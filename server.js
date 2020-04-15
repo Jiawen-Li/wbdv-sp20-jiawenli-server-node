@@ -1,5 +1,10 @@
-var express = require('express')
-var app = express()
+const express = require('express')
+const app = express()
+const mongoose = require('mongoose')
+mongoose.connect('mongodb://heroku_mt4sb07g:jiawen96@ds139960.mlab.com:39960/heroku_mt4sb07g', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+})
 
 app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Origin', '*');
