@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://heroku_mt4sb07g:jiawen96@ds139960.mlab.com:39960/heroku_mt4sb07g', {
+mongoose.connect('mongodb://heroku_mt4sb07g:oe5bseiqmqkjf9c2sjevd8nal3@ds139960.mlab.com:39960/heroku_mt4sb07g', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
