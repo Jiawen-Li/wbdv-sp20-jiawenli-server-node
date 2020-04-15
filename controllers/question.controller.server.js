@@ -8,7 +8,7 @@
 //     })
 // }
 
-const questionsService = require( '../services/questions.service.server' )
+const questionsService = require( '../services/question.service.server' )
 
 module.exports = function (app) {
     app.get ( '/api/quizzes/:qid/questions' , (req, res) =>
